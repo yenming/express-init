@@ -13,8 +13,17 @@
 ```
 
 $ npm i
-$ npm start 
+$ docker build .
+$ docker-compose up
 
+
+
+```
+## Close 
+
+```
+
+$ docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(docker images -q)
 
 ```
 

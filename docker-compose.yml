@@ -15,6 +15,10 @@ services:
           - MYSQL_ROOT=root
           - MYSQL_ROOT_PASSWORD=root
           - MYSQL_DATABASE=expressInitDB
+#          - MYSQL_MAX_ALLOWED_PACKET=1024M
+#          - MYSQL_INNODB_BUFFER_POOL_SIZE= 1024M
+#          - MYSQL_INNODB_LOG_FILE_SIZE= 256M
+#          - MYSQL_INNODB_LOG_BUFFER_SIZE= 256M
         networks:
             - net-web
     frontend:
@@ -50,4 +54,4 @@ services:
     #     - net-web
 networks:
     net-web:
-        driver: bridge
+        driver: bridge  
