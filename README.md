@@ -1,6 +1,3 @@
-## BNI大陽官網
-
-
 ## Environment
 
 Nodejs v14.19.3
