@@ -1,23 +1,17 @@
-# express-init
+# BNI大陽官網
 
 
-## Package
+## Environment
 
-```
+Nodejs v14.19.3
 
 
-```
+
 
 ## Getting Started
 
 ```
-
 $ npm i
-$ docker build .
-$ docker-compose up
-
-
-
 ```
 ## Close 
 
@@ -32,7 +26,8 @@ $ docker stop $(docker ps -aq) && docker rm $(docker ps -aq) && docker rmi $(doc
 ### Building the Application
 
 ```
-
+$ docker build .
+$ docker-compose up
 ```
 
 ### Deploying

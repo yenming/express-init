@@ -3,8 +3,9 @@
 	"file": "style.css",
 	"sources": [
 		"../../sass/style.scss",
-		"../../sass/color.scss"
+		"../../sass/color.scss",
+		"../../sass/variable.scss"
 	],
 	"names": [],
-	"mappings": "AACA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,uBAAuB,GACnC"
+	"mappings": "AAGA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,uBAAuB,GACnC"
 }
